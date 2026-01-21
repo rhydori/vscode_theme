@@ -1,0 +1,113 @@
+{
+  "name": "HARU Dark Purple Pastel Colors",
+  "colors": {
+    // EDITOR
+    "editor.foreground": "#EEEEEE",
+    "editor.background": "#211131",
+    "button.background": "#70479E",
+    "focusBorder": "#70479E",
+    "progressBar.background": "#00FFFF",
+    //"editorInfo.foreground": "#4D2270",
+    //"editorWarning.foreground": "#FFFF00",
+    //"editorError.foreground": "#FF0000",
+
+    // TITLE-BAR
+    "titleBar.activeBackground": "#4D2270", // 2C1C40 4D2270
+    "titleBar.inactiveBackground": "#2C1C40",
+    "menu.background": "#281C35",
+
+    // TAB
+    "editorGroupHeader.tabsBackground": "#211330",
+    "tab.activeBorder": "#70479E",
+    "tab.inactiveBackground": "#211330",
+
+    // LIST
+    "list.activeSelectionBackground": "#4D2270",
+    "list.activeSelectionForeground": "#EEEEEE",
+    "list.hoverBackground": "#4D2270",
+    "list.hoverForeground": "#EEEEEE",
+    "list.inactiveSelectionBackground": "#4D22708F",
+    "list.inactiveSelectionForeground": "#EEEEEE",
+    "list.focusBackground": "#4D2270",
+    "list.dropBackground": "#30064A",
+    "list.warningForeground": "#FFE440",
+    "list.errorForeground": "#F33434",
+    "list.invalidItemForeground": "#FFE440", // ALMOST NO USE
+    "tree.indentGuidesStroke": "#FF0000",
+
+    // SIDE-BAR #322144
+    "sideBar.background": "#2C1C40", 
+    "sideBar.foreground": "#EEEEEE",
+    "sideBarSectionHeader.background": "#70479E",
+    "sideBarTitle.background": "#70479E",
+
+    // STATUS-BAR
+    "statusBar.background": "#4D2270", // 452E5F
+    "statusBar.noFolderBackground": "#4D2270",
+    "statusBar.foreground": "#EEEEEE",
+    "statusBar.debuggingBackground": "#AE47D3",
+
+    // ACTIVITY-BAR
+    "activityBar.background": "#281C35",
+    "activityBar.foreground": "#EEEEEE",
+    "activityBar.activeBorder": "#534b4b",
+    "activityBarBadge.background": "#70479E",
+
+    // BRACKETS
+    "editorBracketHighlight.foreground1": "#7DE5E5", // #FFE440
+    "editorBracketHighlight.foreground2": "#7DE5E5", // #FFE440
+    "editorBracketHighlight.foreground3": "#7DE5E5", // #FFE440
+
+    // GIT
+    "gitDecoration.addedResourceForeground":"#00FFFF",
+    "gitDecoration.modifiedResourceForeground": "#D887F5",
+    "gitDecoration.untrackedResourceForeground": "#00FF77",
+    "gitDecoration.conflictingResourceForeground": "#70479E",
+    "gitDecoration.deletedResourceForeground": "#FF77D7",
+    "gitDecoration.ignoredResourceForeground": "#92889D",
+    //"diffEditor.border": "#b4dce7",
+    //"diffEditor.removedTextBackground": "#ff52bf40",
+    //"diffEditor.insertedTextBackground": "#3feabf23",
+    //"editorGutter.modifiedBackground": "#1ed3ec",
+    //"editorGutter.addedBackground": "#3feabf",
+    //"editorGutter.deletedBackground": "#70479E"
+  },
+
+  "tokenColors": [
+    { "name": "comment",
+    "scope": ["comment"],
+    "settings": {"foreground": "#A9A1B3"} },
+
+    { "name": "big-keywords",
+    "scope": ["keyword.go.mod", "keyword.package", "keyword.go.mod", "keyword.type", "keyword.function", "entity.name.function", "constant.numeric"],
+    "settings": {"foreground": "#7DE5E5"} }, // #00FFFF
+
+    { "name": "keywords",
+    "scope": ["keyword.other","keyword.control", "keyword.var", "keyword.const", "keyword.struct", "keyword.channel", "keyword.map", "entity.name.function.support.builtin", "keyword.declaration.struct"],
+    "settings": {"foreground": "#00FF88"} },
+
+    { "name": "types", // #168AAD #00BBF9
+    "scope": ["entity.name.type", "storage.type", "keyword.operator"],
+    "settings": {"foreground": "#FFF28C"} }, // #00BBFF
+
+    { "name": "function-support", // #F15BB5
+    "scope": ["entity.name.function.support", "entity.name.function", "support.function"],
+    "settings": {"foreground": "#F15BB5"} },
+
+    { "name": "quoted", // #FF8800
+    "scope": ["string.quoted.double", "string.unquoted"],
+    "settings": {"foreground": "#A5FF90"} }, // #FFE440
+
+    { "name": "quoted",
+    "scope": ["string.quoted.raw.go", "string.quoted.rune"],
+    "settings": {"foreground": "#ACDFEF"} },
+
+    { "name": "other",
+    "scope": ["variable.other.property", "keyword.operator.address", "meta.variable.declaration", "variable.parameter", "support.type.property-name", "variable.other.assignment"],
+    "settings": {"foreground": "#E7A9FE"} }, // #FF8800 // #D887F5
+
+    { "name": "nil",
+    "scope": ["constant.language"],
+    "settings": {"foreground": "#E22626"} },
+  ],
+}
